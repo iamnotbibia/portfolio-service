@@ -1,8 +1,7 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { ValidationPipe } from '@nestjs/common';
-
-const SERVICE_KEY = 'DONUT';
+import { SERVICE_KEY } from './constants/serviceKey';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
