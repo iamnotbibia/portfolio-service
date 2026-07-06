@@ -1,0 +1,11 @@
+scalar Date
+scalar JSON
+
+enum EnumLevel {
+  APP
+  ORG
+}
+
+type Query {
+  _empty: String
+}
